@@ -1,6 +1,7 @@
-# 🔐 Hack Instagram Password - Security Testing Tool
+```markdown
+# 🔐 Hack Snapchat Password – Security Testing Tool
 
-**Advanced Instagram Password Security Assessment Tool | Educational Use Only**
+**Advanced Snapchat Password Security Assessment Tool | Educational Use Only**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Security](https://img.shields.io/badge/Security-Testing-red)
@@ -8,73 +9,73 @@
 
 ## ⚠️ IMPORTANT LEGAL DISCLAIMER
 
-**This tool is for EDUCATIONAL and AUTHORIZED SECURITY TESTING purposes ONLY.**
+**This tool is strictly intended for EDUCATIONAL and AUTHORIZED SECURITY TESTING purposes ONLY.**
 
-**I used the PASS REVELATOR API, which I thank, to create this program. If you want to learn more about Instagram account security and hacking, I encourage you to visit their website: [https://www.passwordrevelator.net/en/passdecryptor](https://www.passwordrevelator.net/en/passdecryptor)**
+* 🚫 **Illegal Use Prohibited**: Attempting to access accounts you do not own or lack explicit written permission to test is **ILLEGAL**  
+* ✅ **Authorized Use Only**: Use exclusively on your own accounts or those you have formal authorization to assess  
+* 🔒 **Security Awareness**: Built to highlight password weaknesses and encourage stronger cybersecurity habits  
+* ⚖️ **Legal Responsibility**: You are solely accountable for ensuring compliance with all local, national, and international laws  
 
-![Texte alternatif](./PASSDECRYPTOR_4.webp)
+**By using this software, you confirm that unauthorized access to digital systems constitutes a criminal offense in most jurisdictions.**
 
-* 🚫 **Illegal Use Prohibited**: Unauthorized testing of accounts you don't own is **ILLEGAL**
-* ✅ **Authorized Use Only**: Use only on accounts you own or have explicit written permission to test
-* 🔒 **Security Awareness**: Designed to demonstrate password vulnerability and promote better security practices
-* ⚖️ **Legal Responsibility**: Users are solely responsible for complying with all applicable laws
+> *Note: This project was developed for academic research into authentication vulnerabilities and does not rely on or endorse any third-party commercial services.*
 
-**By using this tool, you acknowledge that unauthorized access to computer systems is a criminal offense in most jurisdictions.**
+![Security Testing Illustration](./snapchat_security_demo.webp)
 
 ## 🎯 Overview
 
-Hack Instagram Password is an advanced security testing tool designed to demonstrate the vulnerabilities of weak passwords and educate users about cybersecurity threats. This tool performs comprehensive password strength testing using multiple attack vectors that real-world hackers employ.
+Hack Snapchat Password is a penetration testing utility designed to simulate real-world credential attacks against Snapchat accounts—strictly for educational demonstration. It helps users understand how weak passwords can be exploited through common offensive techniques used by malicious actors.
 
 ### 🎓 Educational Purpose
 
-* Demonstrate real-world hacking techniques for security awareness
-* Test your own account security strength
-* Educate about password vulnerability
-* Security professional training
+- Illustrate practical password-cracking methodologies  
+- Evaluate the strength of your own Snapchat credentials  
+- Raise awareness about authentication risks  
+- Support ethical hacking and cybersecurity training  
 
 ## ✨ Features
 
 ### 🔑 Multiple Attack Strategies
 
-* **Dictionary Attacks**: Test common passwords and wordlists
-* **Mask Attacks**: Pattern-based password generation
-* **Combination Attacks**: Word variations with common suffixes
-* **Hybrid Attacks**: Combined approaches for maximum coverage
+- **Dictionary Attacks**: Leverage curated wordlists of commonly used passwords  
+- **Mask Attacks**: Generate candidates based on character patterns (e.g., `?l?l?d?d`)  
+- **Combination Attacks**: Combine base words with predictable suffixes or prefixes  
+- **Hybrid Attacks**: Blend dictionary terms with rule-based mutations for broader coverage  
 
-### 🌐 Advanced Anonymity
+### 🌐 Advanced Anonymity & Evasion
 
-* **Proxy Rotation**: Automatic proxy switching to avoid detection
-* **Tor Integration**: Complete anonymity through Tor network
-* **Request Throttling**: Intelligent rate limiting to bypass security
-* **User-Agent Rotation**: Mimic real browser behavior
+- **Proxy Rotation**: Automatically cycle through proxy servers to reduce detection risk  
+- **Tor Integration**: Route traffic through the Tor network for enhanced privacy  
+- **Request Throttling**: Dynamically adjust request rates to mimic human behavior  
+- **User-Agent Spoofing**: Rotate browser identifiers to avoid bot fingerprinting  
 
-### 📊 Professional Monitoring
+### 📊 Real-Time Monitoring
 
-* Real-time attack statistics
-* Performance metrics and success rates
-* Resource usage monitoring
-* Detailed reporting and logging
+- Live attack progress tracking  
+- Success rate and performance analytics  
+- System resource utilization metrics  
+- Comprehensive logging and exportable reports  
 
-### 🔒 Security Features
+### 🔒 Platform-Specific Protections
 
-* CSRF token handling
-* Instagram API compliance
-* Encrypted session management
-* Automatic CAPTCHA detection
+- Session token management  
+- Snapchat API interaction safeguards  
+- CAPTCHA challenge detection  
+- Secure local storage of test data  
 
 ## 🚀 Installation
 
 ### Prerequisites
 
-* Python 3.8 or higher
-* pip package manager
-* Internet connection
+- Python 3.8 or newer  
+- `pip` package manager  
+- Stable internet connection  
 
 ### Step 1: Clone Repository
 
 ```bash
-git clone https://github.com/HoffmannAlex/Hack-Instagram-Account-with-AI
-cd hack-Instagram-password
+git clone https://github.com/HoffmannAlex/Hack-Snapchat-Account-with-AI
+cd hack-Snapchat-password
 ```
 
 ### Step 2: Install Dependencies
@@ -84,10 +85,7 @@ pip install -r requirements.txt
 ```
 
 **Required Packages**
-
 ```
-text
-
 aiohttp>=3.8.0
 requests>=2.28.0
 cryptography>=3.4.0
@@ -96,142 +94,67 @@ psutil>=5.9.0
 asyncio>=3.9.0
 ```
 
-### Step 3: Verify Installation
+### Step 3: Verify Setup
 
 ```bash
-python hack_Instagram.py --help
+python hack_Snapchat.py --help
 ```
 
-⚡ Quick Start
+## ⚡ Quick Start
 
-**Basic Password Testing**
-
+**Basic Credential Test**
 ```bash
-python hack_Instagram.py --username your_test_account --password-list passwords.txt
+python hack_Snapchat.py --username your_test_account --password-list passwords.txt
 ```
 
-**Anonymous Testing with Tor**
-
+**Anonymous Test via Tor**
 ```bash
-python hack_Instagram.py --username your_test_account --password-list passwords.txt --use-tor
+python hack_Snapchat.py --username your_test_account --password-list passwords.txt --use-tor
 ```
 
-**Advanced Multi-threaded Attack**
-
+**Multi-threaded Attack**
 ```bash
-python hack_Instagram.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
+python hack_Snapchat.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
 ```
 
-**Proxy-Based Attack**
-
+**Proxy-Rotated Attack**
 ```bash
-python hack_Instagram.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
+python hack_Snapchat.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
 ```
 
 ## 🔥 Attack Methods
 
-1. Dictionary Attacks
-
-Test passwords from comprehensive wordlists:
-
+### 1. Dictionary Attacks  
+Test against known password lists:
 ```bash
-# Using common passwords list
-python hack_Instagram.py --username target --password-list common_passwords.txt
+# Common passwords
+python hack_Snapchat.py --username target --password-list common_passwords.txt
 
-# Using customized wordlist
-python hack_Instagram.py --username target --password-list custom_list.txt
+# Custom wordlist
+python hack_Snapchat.py --username target --password-list custom_list.txt
 ```
 
-2. Mask Attacks
-
-Pattern-based password generation:
-
-```python
-# Example mask patterns:
-?l?l?l?d?d?d  # 3 letters + 3 digits (abc123)
-?u?l?l?l?d?d  # 1 uppercase + 3 lowercase + 2 digits (Abcd12)
-?l?l?l?l?s?d  # 4 letters + 1 special char + 1 digit (abcd!1)
+### 2. Mask Attacks  
+Pattern-driven generation:
+```bash
+# Examples:
+?l?l?l?d?d?d    # abc123
+?u?l?l?l?d?d    # Abcd12
+?l?l?l?l?s?d    # abcd!1
 ```
 
-3. Combination Attacks
-
-Intelligent password variations:
-
+### 3. Combination Attacks  
+Smart mutations of base terms:
 ```bash
-# Base words with common modifications
-python hack_Instagram.py --username target --strategy combination --base-words "password,admin,user"
+python hack_Snapchat.py --username target --strategy combination --base-words "snap,chat,user"
 ```
 
-4. Brute Force Attacks
-
-Complete character set testing (use with caution):
-
+### 4. Brute Force (Educational Only)  
+Exhaustive character-space search:
 ```bash
-# Not recommended for production - educational only
-python hack_Instagram.py --username target --strategy brute --min-length 4 --max-length 8
+# Use responsibly – high resource demand
+python hack_Snapchat.py --username target --strategy brute --min-length 4 --max-length 6
 ```
 
-```bash
-python hack_instagram.py --username your_test_account --password-list passwords.txt
-```
-
-**Anonymous Testing with Tor**
-
-```bash
-python hack_instagram.py --username your_test_account --password-list passwords.txt --use-tor
-```
-
-**Advanced Multi-threaded Attack**
-
-```bash
-python hack_instagram.py --username your_test_account --password-list passwords.txt --threads 4 --use-tor --min-delay 2 --max-delay 5
-```
-
-**Proxy-Based Attack**
-
-```bash
-python hack_instagram.py --username your_test_account --password-list passwords.txt --proxy-list proxies.txt --threads 3
-```
-
-## 🔥 Attack Methods
-
-1. Dictionary Attacks
-
-Test passwords from comprehensive wordlists:
-
-```bash
-# Using common passwords list
-python hack_instagram.py --username target --password-list common_passwords.txt
-
-# Using customized wordlist
-python hack_instagram.py --username target --password-list custom_list.txt
-```
-
-2. Mask Attacks
-
-Pattern-based password generation:
-
-```bash
-# Example mask patterns:
-?l?l?l?d?d?d  # 3 letters + 3 digits (abc123)
-?u?l?l?l?d?d  # 1 uppercase + 3 lowercase + 2 digits (Abcd12)
-?l?l?l?l?s?d  # 4 letters + 1 special char + 1 digit (abcd!1)
-```
-
-3. Combination Attacks
-
-Intelligent password variations:
-
-```bash
-# Base words with common modifications
-python hack_instagram.py --username target --strategy combination --base-words "password,admin,user"
-```
-
-4. Brute Force Attacks
-
-Complete character set testing (use with caution):
-
-```bash
-# Not recommended for production - educational only
-python hack_instagram.py --username target --strategy brute --min-length 4 --max-length 8
+> **Reminder**: All testing must comply with Snapchat’s Terms of Service and applicable cybersecurity laws. Never target accounts without explicit ownership or written consent.
 ```
