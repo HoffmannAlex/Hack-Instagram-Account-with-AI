@@ -1,4 +1,4 @@
-**Advanced Instagram Password Security Assessment Tool | Educational Use Only**
+**Advanced Instagram Password Security Hacker Tool 2026 | Educational Use Only**
 
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue  )
 ![Security](https://img.shields.io/badge/Security-Testing-red  )
